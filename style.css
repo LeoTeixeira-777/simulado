@@ -14,7 +14,6 @@
     padding-left: 15px;
 }
 .cxdireita {
-    width: 450px;
     height: 500px;
     background-color: black;
 }
@@ -28,4 +27,18 @@
 .p {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
+}
+.cima {
+    display: flex;
+    gap: 10px;
+}
+.cx01 {
+    width: 250px;
+    height: 120px;
+    background-color: #70d9b8;
+}
+.cx02 {
+    width: 250px;
+    height: 120px;
+    background-color: #2eb2ff;
 }
