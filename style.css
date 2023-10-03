@@ -1,39 +1,31 @@
-body {
-    background-color: white;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 .principal {
+    color: white;
     display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
 }
-.caixa1 {
+.cxesquerda {
     background-color: #c358ed;
-    height: 650px;
-    width: 210px;
+    width: 180px;
+    height: 500px;
+    padding-left: 15px;
 }
-#section {
-    display: flex;
+.cxdireita {
+    width: 450px;
+    height: 500px;
+    background-color: black;
 }
-.a01 {
-    display: flex;
-    background-color: #70d9b8;
-    width: 100px;
+.titulo {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-weight: 800;
 }
-.h2 {
-    display: flex;
-    background-color: #2eb2ff;
-}
-.h3 {
-    display: flex;
-    background-color: #44d9e6;
-}
-.h4 {
-    display: flex;
-    background-color: #ff5c5c;
-   }
-.baixo {
-    display: flex;
-    background-color: #ffbd4a;
-    height: 250px;
-    width: 800px;
-    
-
+.p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
 }
