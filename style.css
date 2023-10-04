@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 .principal {
+    margin: 100px;
     color: white;
     display: flex;
     justify-content: center;
@@ -10,13 +12,10 @@
 .cxesquerda {
     background-color: #c358ed;
     width: 180px;
-    height: 500px;
+    height: 520px;
     padding-left: 15px;
 }
-.cxdireita {
-    height: 500px;
-    background-color: black;
-}
+
 .titulo {
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
@@ -34,11 +33,46 @@
 }
 .cx01 {
     width: 250px;
-    height: 120px;
+    height: 130px;
     background-color: #70d9b8;
+    display: flex;
+    justify-content: end;
 }
 .cx02 {
-    width: 250px;
-    height: 120px;
+    width: 300px;
+    height: 130px;
     background-color: #2eb2ff;
+    display: flex;
+    justify-content: end;
+}
+.meiuca {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+.cx03 {
+    width: 320px;
+    height: 230px;
+    background-color: #44d9e6;
+    display: flex;
+    justify-content: end;
+}
+.cx04 {
+    width: 230px;
+    height: 230px;
+    background-color: #ff5c5c;
+    display: flex;
+    justify-content: end;
+}
+.baixo {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+.cx05 {
+    width: 560px;
+    height: 140px;
+    background-color: #ffbd4a;
+    display: flex;
+    justify-content: end;
 }
